@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.moveX {
+  display: flex;
+  animation: moveAnimation 8s linear infinite;
+}
+
+@keyframes moveAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.moveLink {
+  opacity: 0;
+  transition: all ease 0.3s;
+  overflow: hidden;
+}
+
+.link:hover .moveLink {
+  opacity: 1;
+}
