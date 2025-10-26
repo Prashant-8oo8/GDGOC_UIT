@@ -44,7 +44,7 @@ function HeroText() {
         {/* Center Text */}
         <div
           className="leading-tight uppercase space-y-2 flex flex-col items-center whitespace-nowrap text-black"
-          style={{ fontSize: "clamp(1.5rem, 5vw, 3.5rem)" }}
+          style={{ fontSize: "clamp(3rem, 8vw, 5rem)" }}
         >
           <div>GDG</div>
           <div className="flex items-center justify-center flex-wrap gap-3 max-w-[320px] sm:max-w-none">

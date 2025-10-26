@@ -23,7 +23,7 @@ function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[75vh] lg:min-h-[80vh] max-h-[90vh] flex items-center justify-center p-0 m-0 z-10">
+      <section className="relative w-full h-[60vh] sm:h-[70vh] md:h-[75vh] lg:min-h-[80vh] max-h-[90vh] flex items-center justify-center p-0 my-7 z-10">
         <HeroText />
       </section>
 
